@@ -1,0 +1,85 @@
+# terminal emulator
+super + Return
+	urxvt
+
+super + q
+  xscreensaver-command --lock
+
+# program launcher
+super + p
+  dmenu_run -l 15 -i -c #dmenu_run #-i -p run: -w dmenu -nf '#ebdbb2' -nb '#1d2021' -sb '#689d6a' -sf '#1d2021' -fn firacode:size=8 #-l 10
+
+# web browsers
+super + o
+        firefox
+
+
+super + shift + o
+        qutebrowser
+
+# work browser
+super + w
+        chromium
+
+# text editor
+super + a
+        emacs
+
+# make sxhkd reload its configuration files:
+super + Escape
+        pkill -USR1 -x sxhkd
+
+# dmenu scripts
+super + s
+        ~/.local/bin/dmenu_websearch
+
+super + z
+        mpdmenu
+
+super + n
+        dmenumount
+
+super + shift + n
+        dmenuumount
+
+# universal
+
+super + q
+        slock
+
+XF86AudioPlay
+        mpc toggle
+
+XF86AudioPrev
+        mpc prev
+
+XF86AudioNext
+        mpc next
+
+Print
+        scrot  -e 'mv $f ~/Pictures/screenshots'
+
+XF86AudioRaiseVolume
+        pamixer -i 5
+
+XF86AudioLowerVolume
+        pamixer -d 5
+
+XF86AudioMute
+        pamixer -t
+
+XF86MonBrightnessDown
+        brightnessctl set 10%-
+
+XF86MonBrightnessUp
+        brightnessctl set +10%
+
+XF86Search
+        dmenu_run -c -l 15 -i -p 'Run :'
+
+# getting rid of statusbar
+super + d
+        herbe "The time is" "$(date '+%b %d (%a) %H:%M')"
+
+super + m
+        herbe "You're listening to" \ "$(mpc current)"

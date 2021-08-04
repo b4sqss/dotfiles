@@ -2,8 +2,6 @@
 
 (setq inhibit-startpage-message t)
 
-;;(server-start)
-
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (tooltip-mode -1)
@@ -14,8 +12,6 @@
 
 (menu-bar-mode -1)
 
-                                        ;     (setq display-graphic-p t)
-
 (setq visible-bell nil)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
@@ -24,7 +20,7 @@
 (set-default-coding-systems 'utf-8)
 (set-face-bold-p 'bold nil)
 (set-face-attribute 'default nil
-                    :font "firacode:antialias=true"
+                    :font "Sarasa Mono J:antialias=true"
                     :height 80)
 
 (setq backup-directory-alist `(("." . ,(expand-file-name "tmp/backups/" user-emacs-directory))))
@@ -47,19 +43,11 @@
 
 (setq use-package-always-ensure t)
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("88c59500c520bdba6c6a164deb767b3b14c6a9686a24781adb3b9a1a883b9e50" "75b8719c741c6d7afa290e0bb394d809f0cc62045b93e1d66cd646907f8e6d43" "f8925b6e0b5efdefece2eff53597a746cd47f4aa097942db2ebda82b7b9b3670" default))
- '(elfeed-feeds '("https://reddit.com/r/emacs.rss") t)
+   '("1704976a1797342a1b4ea7a75bdbb3be1569f4619134341bd5a4c1cfb16abad4" "6b1abd26f3e38be1823bd151a96117b288062c6cde5253823539c6926c3bb178" "88c59500c520bdba6c6a164deb767b3b14c6a9686a24781adb3b9a1a883b9e50" "75b8719c741c6d7afa290e0bb394d809f0cc62045b93e1d66cd646907f8e6d43" "f8925b6e0b5efdefece2eff53597a746cd47f4aa097942db2ebda82b7b9b3670" default))
+ '(elfeed-feeds '("https://reddit.com/r/emacs.rss")("http://rss.sciam.com/ScientificAmerican-Global"))
  '(ivy-mode t)
- '(org-agenda-files '("~/Documents/org/org-agenda.org"))
- '(package-selected-packages
-   '(material-theme zig-mode which-key weechat vertico use-package undo-tree typescript-mode twittering-mode treemacs-evil symon spotify smart-mode-line rust-mode reddigg ranger rainbow-delimiters projectile-ripgrep powerline-evil poly-R pandoc ox-pandoc org-super-agenda org-evil org-bullets org-auto-tangle nordless-theme nord-theme no-littering nnreddit nixos-options nix-mode mpdmacs minions mastodon marginalia magithub lsp-ui lsp-latex lsp-javacomp lsp-java lsp-ivy lsp-haskell latex-preview-pane jabber ivy-rtags ivy-rich ivy-mpdel horizon-theme helpful handoff gruvbox-theme go-mode general geiser-mit fira-code-mode exwm-x exwm-surf exwm-firefox-evil ewal-doom-themes evil-tutor evil-nerd-commenter evil-collection eterm-256color ess-r-insert-obj ess-R-data-view emojify elfeed-web elfeed-org doom-modeline doom dmenu dired-toggle dashboard counsel-projectile company-rtags company-auctex command-log-mode color-theme-x cmake-ide base16-theme auto-org-md atom-one-dark-theme all-the-icons-gnus ac-geiser)))
-
-(load-theme 'doom-gruvbox)
+ '(org-agenda-files '("~/Documents/org/org-agenda.org")))
 
 (global-display-line-numbers-mode t)
 
@@ -70,12 +58,13 @@
     :prefix "SPC"
     :global-prefix "C-SPC")
 
-  (basqs/leader-keys
-    "c" '(kill-buffer :which-key "kill buffer")
-    "TAB" '(counsel-switch-buffer :which-key "change buffer")
-    "t" '(:ignore t :which-key "toggles")
-    "tl" '(toggle-truncate-lines :which-key "truncate lines")
-    "tt" '(counsel-load-theme :which-key "chose theme")))
+  (with-eval-after-load 'general
+    (basqs/leader-keys
+      "c" '(kill-buffer :which-key "kill buffer")
+      "TAB" '(counsel-switch-buffer :which-key "change buffer")
+      "t" '(:ignore t :which-key "toggles")
+      "tl" '(toggle-truncate-lines :which-key "truncate lines")
+      "tt" '(counsel-load-theme :which-key "chose theme"))))
 
 (defun basqs/evil-hook ()
   (dolist (mode '(custom-mode
@@ -125,13 +114,15 @@
         (remove 'lispy evil-collection-mode-list))
   (evil-collection-init))
 
-(basqs/leader-keys
-  "w"  '(:ignore t :which-key "windows")
-  "wc" 'evil-window-delete
-  "ws" 'evil-window-split
-  "wv" 'evil-window-vsplit
-  "l"  'evil-window-next
-  "h"  'evil-window-prev)
+
+(with-eval-after-load 'general
+  (basqs/leader-keys
+    "w"  '(:ignore t :which-key "windows")
+    "wc" 'evil-window-delete
+    "ws" 'evil-window-split
+    "wv" 'evil-window-vsplit
+    "l"  'evil-window-next
+    "h"  'evil-window-prev))
 
 (use-package ivy
   :bind (("C-s" . swiper)
@@ -167,14 +158,18 @@
             (setq gc-cons-threshold (expt 2 23))))
 
 (use-package which-key
+  :after ivy
   :init (which-key-mode)
   :diminish which-key mode
   :config
   (setq which-key-idle-delay 0.3))
 
 (use-package ivy-rich
+  :after ivy
   :init
   (ivy-rich-mode 1))
+(use-package all-the-icons-ivy-rich)
+(use-package all-the-icons-ivy)
 
 (use-package counsel
   :bind (("M-x" . counsel-M-x)
@@ -210,8 +205,10 @@
 (use-package eshell
   :hook (eshell-first-time-mode . efs/configure-eshell))
 
-(basqs/leader-keys
-  "e" 'eshell)
+
+(with-eval-after-load 'general
+  (basqs/leader-keys
+    "e" 'eshell))
 
 (use-package dired
   :ensure nil
@@ -223,38 +220,42 @@
     "l" 'dired-find-file))
 
 (use-package dired-toggle)
+(use-package all-the-icons-dired
+  :after dired)
 
-(basqs/leader-keys
-  "." '(counsel-find-file :which-key "find-file")
-  )
+
+(with-eval-after-load 'general
+  (basqs/leader-keys
+    "." '(counsel-find-file :which-key "find-file")
+    "d" '(dired :which-key "dired")
+    ))
 
 (use-package dashboard
   :ensure t
   :config (dashboard-setup-startup-hook))
 
-                                        ;     (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
+(setq dashboard-projects-switch-function 'counsel-projectile-switch-project-by-name)
 
-;; Content is not centered by default. To center, set
 (setq dashboard-center-content t)
-
 (setq dashboard-set-navigator t)
-
-;; To disable shortcut "jump" indicators for each section, set
 (setq dashboard-show-shortcuts t)
 
 (setq dashboard-items '((recents  . 5)
                         (bookmarks . 5)
-                        ;;(projects . 5)
+                        (projects . 5)
                         (agenda . 10)))
+
 
 (setq dashboard-set-heading-icons t)
 (setq dashboard-set-file-icons t)
+
+(setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 
 (use-package doom-modeline
   :ensure t
   :init (doom-modeline-mode)
   (display-battery-mode))
-(set-face-attribute 'mode-line nil :family "firacode" :height 80)
+(set-face-attribute 'mode-line nil :family "Sarasa Slab J" :height 80)
 (setq doom-modeline-height 14)
 (setq doom-modeline-major-mode-icon t)
 (setq doom-modeline-buffer-state-icon t)
@@ -264,7 +265,9 @@
 (use-package minions
   :hook (doom-modeline-mode . minions-mode))
 
+(use-package nord-theme)
 (use-package doom-themes)
+(load-theme 'doom-nord)
 
 (use-package all-the-icons)
 
@@ -277,20 +280,22 @@
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 
-(basqs/leader-keys
-  "g"   '(:ignore t :which-key "git")
-  "gs"  'magit-status
-  "gd"  'magit-diff-unstaged
-  "gc"  'magit-branch-or-checkout
-  "gl"   '(:ignore t :which-key "log")
-  "glc" 'magit-log-current
-  "glf" 'magit-log-buffer-file
-  "gb"  'magit-branch
-  "gP"  'magit-push-current
-  "gp"  'magit-pull-branch
-  "gf"  'magit-fetch
-  "gF"  'magit-fetch-all
-  "gr"  'magit-rebase)
+
+(with-eval-after-load 'general
+  (basqs/leader-keys
+    "g"   '(:ignore t :which-key "git")
+    "gs"  'magit-status
+    "gd"  'magit-diff-unstaged
+    "gc"  'magit-branch-or-checkout
+    "gl"   '(:ignore t :which-key "log")
+    "glc" 'magit-log-current
+    "glf" 'magit-log-buffer-file
+    "gb"  'magit-branch
+    "gP"  'magit-push-current
+    "gp"  'magit-pull-branch
+    "gf"  'magit-fetch
+    "gF"  'magit-fetch-all
+    "gr"  'magit-rebase))
 
 (use-package magithub
   :after magit
@@ -300,7 +305,7 @@
 
 (defun basqs/org-mode-setup ()
   (org-indent-mode)
-  (variable-putch-mode 1)
+  ;(variable-putch-mode 1)
   (auto-fill-mode 0)
   (visual-line-mode 1)
   (setq truncate-lines t)
@@ -313,16 +318,25 @@
                                         ;	org-hide-emphasis-markers t
         ))
 
-(basqs/leader-keys
-  "o"   '(:ignore t :which-key "org")
-  "od"  'org-toggle-checkbox
-  "ot"  'org-todo
-  "oa"  'org-agenda
-  "os"  'org-schedule
-  "on"  'org-agenda-file-to-front
-  "ob"  '(:ignore b :which-key "babel")
-  "obt" 'org-babel-tangle
-  "ol"  'org-insert-link)
+(with-eval-after-load 'org
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((emacs-lisp .t)
+     (shell . t))
+
+   ))
+
+(with-eval-after-load 'general
+  (basqs/leader-keys
+    "o"   '(:ignore t :which-key "org")
+    "od"  'org-toggle-checkbox
+    "ot"  'org-todo
+    "oa"  'org-agenda
+    "os"  'org-schedule
+    "on"  'org-agenda-file-to-front
+    "ob"  '(:ignore b :which-key "babel")
+    "obt" 'org-babel-tangle
+    "ol"  'org-insert-link))
 
 (use-package org-evil)
 
@@ -342,11 +356,6 @@
 (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp"))
 (add-to-list 'org-structure-template-alist '("md" . "src markdown"))
 
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((emacs-lisp .t)
-   (shell . t)))
-
 (setq org-confirm-babel-evaluate nil)
 
 (use-package org-auto-tangle)
@@ -354,6 +363,16 @@
 (require 'org-habit)
 (add-to-list 'org-modules 'org-habit)
 (setq org-habit-graph-column 60)
+
+(use-package org-roam
+:ensure t
+:custom
+(org-roam-directory "~/Documents/roam")
+:bind (("C-c n l" . org-roam-buffer-toggle)
+       ("C-c n f" . org-roam-node-find)
+       ("C-c n i" . org-roam-node-insert))
+:config (org-roam-setup))
+(setq org-roam-v2-ack t)
 
 (use-package latex-preview-pane)
 
@@ -366,65 +385,35 @@
 
 (setq TeX-PDF-mode t)
 
-(use-package pandoc)
-
-(use-package lsp-ivy
-  :commands lsp-ivy-workspace-symbol)
-
-(setq company-format-margin-function nil)
-(add-hook 'after-init-hook 'global-company-mode)
-
-(use-package autothemer
-  :ensure t)
-
 (font-lock-add-keywords
  'latex-mode
  '(("\\\\quad" 0 my-new-face prepend)
    ("\\\\label" 0 my-another-new-face prepend)))
 
-;; (setq ess-ask-about-transfile t)
+(use-package pandoc)
+(use-package ox-pandoc)
 
-(require 'rtags)
-(require 'company-rtags)
+(with-eval-after-load 'lsp
+  (use-package lsp-ivy
+    :commands lsp-ivy-workspace-symbol))
 
-(setq rtags-completions-enabled t)
-(eval-after-load 'company
-  '(add-to-list
-    'company-backends 'company-rtags))
-(setq rtags-autostart-diagnostics t)
-(rtags-enable-standard-keybindings)
+(use-package haskell-mode)
+(setq company-format-margin-function nil)
+(add-hook 'after-init-hook 'global-company-mode)
 
+(with-eval-after-load 'lsp
+  (use-package lsp-mode
+    :commands (lsp lsp-deferred)
+    :init
+    (setq lsp-keymap-prefix "C-c l")
+    :config
+    (lsp-enable-which-key-integration t)))
 
-(use-package lsp-mode
-  :commands (lsp lsp-deferred)
-  :init
-  (setq lsp-keymap-prefix "C-c l")
-  :config
-  (lsp-enable-which-key-integration t))
-
+(use-package lsp-haskell)
 (require 'lsp)
 
 (add-hook 'c-mode-hook 'lsp)
-(add-hook 'c++-mode-hook 'lsp)
-
-(setq gc-cons-threshold (* 100 1024 1024)
-      read-process-output-max (* 1024 1024)
-      treemacs-space-between-root-nodes nil
-      company-idle-delay 0.0
-      company-minimum-prefix-length 1
-      lsp-idle-delay 0.1)  ;; clangd is fast
-
-(with-eval-after-load 'lsp-mode
-  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration)
-  (require 'dap-cpptools)
-  (yas-global-mode))
-
-(setq gc-cons-threshold (* 100 1024 1024)
-      read-process-output-max (* 1024 1024)
-      treemacs-space-between-root-nodes nil
-      company-idle-delay 0.0
-      company-minimum-prefix-length 1
-      lsp-idle-delay 0.1)  ;; clangd is fast
+(add-hook 'haskell-mode-hook 'lsp)
 
 (use-package geiser)
 
@@ -464,9 +453,5 @@
           (:maildir "/Gmail/[Gmail]/Trash"     :key ?t)
           (:maildir "/Gmail/[Gmail]/Drafts"    :key ?d)
           (:maildir "/Gmail/[Gmail]/All Mail"  :key ?a))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+(setq gc-cons-threshold (* 50 1000 1000))

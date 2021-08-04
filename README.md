@@ -1,9 +1,12 @@
 ## Dotfiles I use on my desktop, alongside my dwm build and a few other suckless utils
 
 * tokyodark
-![tokyodark](./tokyodark/rice.png)
+![tokyodark](./tokyodark.png)
 
 * gruvbox
-![gruvbox](./gruvbox/rice.png)
+![gruvbox](./gruvboxpng)
+
+* nord
+![nord](./nord.png)
 
 * dwm build in on another repository
