@@ -1,0 +1,5 @@
+XSym
+0063
+5e7c3c20e4339804260b8a8c46c030a4
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/sw.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

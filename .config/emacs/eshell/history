@@ -1,0 +1,14 @@
+ls
+lsblk
+cd
+ls
+brew install mupdf
+zsh
+ls
+lsblk
+brew
+brew install org-mode
+gcc hello.cpp
+ls
+clang hello.cpp
+..

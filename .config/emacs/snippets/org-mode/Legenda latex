@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Legenda latex
+# key: <imgleg
+# --
+
+#+CAPTION: {$1:Legenda}
+#+LABEL: ondas, exemplo
+#+ATTR_LATEX: width=5cm
+[[$0]]

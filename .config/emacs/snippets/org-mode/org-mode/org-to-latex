@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: org to latex
+# key: <latex
+# --
+
+#+TITLE: ${1:Title}
+#+DATE:
+:PROPERTIES:
+#+SETUPFILE: ~/Documents/org/latexSetup.org
+#+LATEX_CLASS: article
+#+LATEX_OPTIONS: [letterpaper]
+#+OPTIONS: toc:nil
+:END:
+
+$0

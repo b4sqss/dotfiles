@@ -1,0 +1,128 @@
+brew install org-mode
+ls
+cd .config/emacs/
+ls
+cd etc/
+ls
+mkdir org-css 
+cd org-css/
+ls
+wget https://raw.githubusercontent.com/shaunsingh/nix-darwin-dotfiles/main/configs/doom-emacs/misc/org-css/style.css https://raw.githubusercontent.com/shaunsingh/nix-darwin-dotfiles/main/configs/doom-emacs/misc/org-css/style.html  https://raw.githubusercontent.com/shaunsingh/nix-darwin-dotfiles/main/configs/doom-emacs/misc/org-css/style.css
+ls
+wget https://raw.githubusercontent.com/shaunsingh/nix-darwin-dotfiles/main/configs/doom-emacs/misc/org-css/style.js
+ll
+ls
+rm style.css.1
+ls
+brew list
+python3 maximo.py
+python3 
+ls
+cd ..
+ls
+cd ..
+ls
+true
+false
+ls
+brew
+ls
+cd
+ls
+ls -n
+ls
+ls -n\ /
+ls
+lsblk
+neofetch
+pfetch
+nnn
+ls
+brew
+brew doctor
+brew install cmatrix
+brew upgrade
+ros
+ros help init
+ros init bm
+ls
+rm -rf *
+wget https://raw.githubusercontent.com/evanswa0606/firefox-simpletheme/master/userChrome-nobuttonbox.css
+ls
+mv userChrome-nobuttonbox.css userChrome.css
+wget https://raw.githubusercontent.com/evanswa0606/firefox-simpletheme/master/userChrome.css
+ls
+mv userChrome.css.1 userChrome.css
+ks
+ls
+rm userChrome.css
+wget https://raw.githubusercontent.com/Tnings/MacosVibrant/main/userChrome.css
+wget https://github.com/akshat46/FlyingFox/releases/download/v0.1.2/flyingfox.tar.gz
+tar -xf flyingfox.tar.gz
+ls
+rm flyingfox.tar.gz
+ls
+cd chrome/
+ls
+cd ..
+ls
+rm userChrome.css
+mv chrome/* .
+ls
+ls
+open userChrome.css
+ls
+rm -r *
+ls
+wget https://raw.githubusercontent.com/molecule47/idyllic-firefox/main/chrome/userChrome.css
+ls
+rm userChrome.css
+wget https://raw.githubusercontent.com/crambaud/waterfall/main/userChrome.css
+ls
+ls
+open userChrome.css
+screen 
+ls
+node number.js
+node number.js
+node number.js
+!!
+!!
+!!
+!!
+ls
+cd .config/nvim/
+ls
+rg twitchy
+yabai -m config status_bar
+yabai -m config status_bar
+yabai -m config window_border                onyabai -m config window_border_width          4yabai -m config active_window_border_color   0x00775759yabai -m config normal_window_border_color   0x00505050yabai -m config insert_window_border_color   0xffd75f5f
+ls
+yabai -m config window_border                onyabai -m config window_border_width          4yabai -m config active_window_border_color   0x00775759yabai -m config normal_window_border_color   0x00505050
+ls
+yabairc
+./yabairc 
+./yabairc 
+cd ~/
+ls
+cd Pictures/wallpapers/
+wget cd Pictures/wallpapers/~/Pictures/wallpapers λ wget cd Pictures/wallpapers/~/Pictures/wallpapers λ wget cd Pictures/wallpapers/~/Pictures/wallpapers λ wget cd Pictures/wallpapers/~/Pictures/wallpapers λ wget https://unsplash.com/photos/BLOWia_UMD4/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjYzMjc4NTc2&force=true
+ls
+ls
+brew
+ls
+mkdir poemas historia brasil mariana/
+cd
+mkdir /opt/zplug
+cd /opt/zplug/ 
+ls
+mkdir log
+sudo mkdir log bin cache repos
+ls
+chmod -H 
+chmod --help
+chown -R basqs /opt/zplug/
+sudo !!
+/usr/bin/chown: changing ownership of '/opt/zplug/': Operation not permitted
+ls
+ls -l

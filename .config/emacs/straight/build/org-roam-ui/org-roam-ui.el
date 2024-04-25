@@ -1,0 +1,5 @@
+XSym
+0068
+45734051f8af46c97b1931b29f7c711a
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/org-roam-ui.el
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

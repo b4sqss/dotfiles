@@ -1,0 +1,5 @@
+XSym
+0110
+0f4ac91bc59f4524c326c278ef525f17
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/_next/static/6Q3_SCUKl8zGqWimdcq8f/_buildManifest.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

@@ -1,0 +1,5 @@
+XSym
+0077
+05cda6c9f0bb21625f2faa0656c7722a
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/workbox-ea903bce.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

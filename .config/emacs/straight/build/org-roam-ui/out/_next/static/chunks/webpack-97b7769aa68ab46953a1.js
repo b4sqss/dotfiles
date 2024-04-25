@@ -1,0 +1,5 @@
+XSym
+0109
+0755de06e1d4a1e01dd6d1fbf0812c85
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/_next/static/chunks/webpack-97b7769aa68ab46953a1.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

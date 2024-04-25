@@ -1,0 +1,5 @@
+XSym
+0108
+bd300b3e3167e048caf40fe84846e264
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/_next/static/6Q3_SCUKl8zGqWimdcq8f/_ssgManifest.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

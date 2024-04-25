@@ -1,0 +1,5 @@
+XSym
+0111
+e6db1258e2830c8de15ac2b5e9d81b75
+/Users/basqs/.config/emacs/straight/repos/org-roam-ui/out/_next/static/chunks/framework-a62d654bd9699da79f2a.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
