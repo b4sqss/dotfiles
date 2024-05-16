@@ -1,6 +1,0 @@
-(undo-tree-save-format-version . 1)
-"23d03022069f183be0b721ab1a1044e17af532fc"
-[nil nil nil nil (25395 21464 237271 0) 0 nil]
-([nil current ((#("
-" 0 1 (org-category "História do Brasil em versos" fontified nil)) . 338) (#(":ARCHIVE_CATEGORY: História do Brasil em versos" 0 1 (fontified nil) 1 17 (fontified nil) 17 18 (fontified nil) 18 19 (fontified nil) 19 47 (fontified nil)) . -270) (270 . 364) (270 . 271) (#(":ARCHIVE_FILE: ~/Documents/escola/2ano/História do Brasil em versos.org" 0 1 (fontified nil) 1 13 (fontified nil) 13 14 (fontified nil) 14 15 (fontified nil) 15 71 (fontified nil)) . -198) (198 . 340) (198 . 199) (#(":ARCHIVE_TIME: 2022-09-27 Tue 16:49" 0 1 (fontified nil) 1 13 (fontified nil) 13 14 (fontified nil) 14 15 (fontified nil) 15 35 (fontified nil)) . -162) (162 . 232) (162 . 163) (148 . 167) (1 . 164) (t . -1)) nil (25395 21464 237267 0) 0 nil])
-nil

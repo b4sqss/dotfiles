@@ -9,17 +9,17 @@ window#waybar {
     background-color: #1a1b26;
 }
 
-#workspaces button{
+#tags button{
     padding: 0px 2px;
     font-weight: bolder;
     background-color: #1a1b26;
 }
 
-#workspaces button.active, #workspaces button.focused{
+#tags button.focused, #workspaces button.focused{
     background: #32344a;
 }
 
-#workspaces button:hover {
+#tags button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
 }

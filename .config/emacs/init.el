@@ -22,7 +22,6 @@
               history-length 30
               use-dialog-box nil
               frame-resize-pixelwise t
-              global-hl-line-mode t
               frame-title-format '("" "%b")
               truncate-partial-width-windows nil
               truncate-lines nil)
@@ -34,6 +33,10 @@
 (menu-bar-mode -1)
 (save-place-mode 1)
 (global-hl-line-mode 1)
+(blink-cursor-mode 0)
+(global-visual-line-mode t)
+(global-display-line-numbers-mode 1)
+(show-paren-mode 1)
 ;; (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 ;; (global-set-key (kbd "<f9>") 'display-line-numbers-mode)
 (put 'narrow-to-region 'disabled nil)
@@ -221,15 +224,8 @@
                  (add-hook hook 'turn-on-flyspell))
                (add-hook 'prog-mode-hook 'flyspell-prog-mode))
   :config
-  (when (executable-find "hunspell")
-    (setq-default ispell-program-name "hunspell")
-    (setq ispell-really-hunspell t))
-  (cond ((executable-find "enchant-2")  (setq-default ispell-program-name "enchant-2"))
-        ((executable-find "hunspell")   (progn (setq-default ispell-program-name "hunspell") (setq ispell-really-hunspell t)))
-        ((executable-find "aspell")     (setq-default ispell-program-name "aspell"))))
-(setq ispell-dictionary "pt_BR")
-
-
+(setq ispell-program-name "hunspell"
+      ispell-dictionary "pt_BR"))
 
 ;; ace-jump-mode
 (use-package ace-jump-mode
@@ -238,6 +234,7 @@
 (use-package undo-tree
   :diminish undo-tree-mode
   :init (global-undo-tree-mode))
+(setq undo-tree-history-directory-alist '(("." . "~/.config/emacs/undo")))
 
 (use-package no-littering
   :config (setq no-littering-etc-directory
@@ -326,12 +323,13 @@
 (setq-default fill-column 80)
 
 (use-package org
-  :init ((org-indent-mode 1)
-         (variable-pitch-mode 1)
+  :init (
+         ;;(variable-pitch-mode 1)
          (auto-fill-mode 0)
          (visual-line-mode 1)
          (diminish org-indent-mode))
   :custom(setq org-ellipsis "▾"
+               org-startup-indented t
                org-hide-emphasis-markers t
                org-src-fontify-natively t
                org-fontify-quote-and-verse-blocks t
@@ -342,10 +340,10 @@
                org-startup-folded 'content
                org-cycle-separator-lines 2
                org-capture-bookmark nil
-               org-agenda-files '("~/.org/")
+               org-agenda-files '("~/org/agenda.org")
                org-directory  "~/Documents/org/"
                org-lowest-priority ?E
-               org-agenda-directory "~/.org/"
+               org-agenda-directory "~/org/"
                org-capture-templates `(("i" "inbox" entry (file ,(concat org-agenda-directory "inbox.org"))
                                         "* TODO %?")
                                        ("e" "email" entry (file+headline ,(concat org-agenda-directory "emails.org") "Emails")
@@ -485,6 +483,13 @@
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)))
+
+;; auto-tangle
+(defun tangle-all-org-on-save-h ()
+  "Tangle org files on save."
+  (if (string= (file-name-extension (buffer-file-name)) "org")
+      (org-babel-tangle)))
+(add-hook 'after-save-hook #'tangle-all-org-on-save-h)
 
 ;;org drag and drop
 ;;;; from web

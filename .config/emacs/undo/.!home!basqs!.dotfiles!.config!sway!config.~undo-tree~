@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"8e105ef2137f31cb53850e3056ad38f75af235ab"
+[nil nil nil nil (26181 64547 643197 810000) 0 nil]
+([nil nil ((#("swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | \"\\(.x),\\(.y) \\(.width)x\\(.height)\"' " 0 29 (face font-lock-string-face fontified t) 29 62 (fontified t) 62 96 (face font-lock-string-face fontified t) 96 98 (face font-lock-string-face fontified t)) . -10185) (undo-tree-id0 . -98) 10283 (t 26172 8704 814931 377000)) nil (26181 64547 643194 39000) 0 nil])
+([nil current ((10185 . 10191)) nil (26181 64547 643170 293000) 0 nil])
+nil

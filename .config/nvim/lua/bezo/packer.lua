@@ -86,8 +86,31 @@ return require('packer').startup(function(use)
 	use {
 		'williamboman/mason.nvim',
 		requires = {'williamboman/mason-lspconfig.nvim'},
-		config = require("mason").setup()
+		config = require("mason").setup({
+      ensure_installed = {
+        lsp = {
+          "clangd",
+          "lua-language-server",
+          "pyright",
+          "rust_analyzer",
+          "gopls"
+        },
+        dap = {
+          "debugpy",
+          "cpptools"
+        }
+      }
+    })
+
 	}
+
+  use {
+    "tpope/vim-dadbod",
+    requires = {
+      {"kristijanhusak/vim-dadbod-completion"},
+      {"kristijanhusak/vim-dadbod-ui"}
+    }
+  }
 
 	use {
 		"akinsho/toggleterm.nvim", tag = '*', config = function()

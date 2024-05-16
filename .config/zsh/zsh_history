@@ -8982,3 +8982,1024 @@ rm *.zip
 ls
 pkill ArdourGUI
 poweroff 
+cd .dotfiles
+ls
+.git
+ls
+..
+git add .
+git commit -m 'initial commit'
+git config --global user.email "basqs@tutanota.com"
+git config --global user.name "basqs@tutanota.com"
+git config --global user.name "b4sqss"
+git commit -m 'initial commit'
+git push
+git push 
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+pkill ArdourGUI
+ping x.org
+pulsemixer
+pkill pipewire
+pkill pipewire-pulse
+pkill pipewire-pulse 
+power
+poweroff 
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+ls
+w
+pkill brave
+pulsemixer
+systemctl start bluetooth.service
+pulsemixer
+pkill ArdourGUI
+sudo pacman -S cmatrix
+cmatrix
+poweroff
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+cd Videos
+ls
+cd videos
+yt-dlp https://bunkr.si/v/spneqffUTHq7H https://bunkr.si/v/E2kSpCZ3tF63k https://bunkr.si/v/09KwqpmZKcrGy https://bunkr.si/v/FLTfHsWzSpxhs https://bunkr.si/v/z5qXQ5Nk8m83q
+poweroff
+nvim .local/share/applications/mimeinfo.cache
+nvim .local/share/applications/mimeapps.list
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+xdg-mime query Pictures/screenshots/2024-29-04-08:32.png
+xdg-mime query 
+xdg-mime --help
+xdg-mime query filetype Pictures/screenshots/2024-29-04-08:32.png
+xdg-mime default image
+nvim .local/share/applications/mimeapps.list
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+/
+sudo pacman -S fd
+fd imv.desktop
+xdg-open Pictures/screenshots/2024-29-04-08:32.png
+cd /
+fd mpv.desktop
+xdg-mime query filetype Videos/videos/0h5trnan57f3fdlih2611_source-tu4KZZ4D.mp4\ ｃ�\ Bunkr\ \(1\)\ \[E2kSpCZ3tF63k-1\].mp4
+fd .mkv
+xdg-mime query filetype Pictures/screenshots/2021-06-15 08-31-36.mkv\
+
+xdg-mime query filetype Pictures/screenshots/2021-06-15\ 08-31-36.mkv\
+
+nvim .dotfiles/.config/zathura/zathurarc
+mkdir .dotfiles/.config/zathura
+cd .dotfiles
+stow .
+nvim .local/share/applications/mimeapps.list
+zathura faculdade/quimica\ basica/Lista\ -\ Cálculo\ Estequiométrico_bda49d678b51cb460a56434b9183555c.pdf
+sudo pacman -Syu
+nvim .config/zathura/zathurarc
+sudo pacman -S zathura-djvu zathura-pdf-mupdf zathura-ps
+nvim .config/zathura/zathurarc
+paru -S zaread
+paru -Syu
+paru -R spleeter
+paru -Syu
+paru -R python-museval
+cd /
+fd zaread
+fd zaread.desktop
+fd *.desktop
+zaread Downloads/\(AULA\ 03\)\ Modelo\ Editavél\ -\ Matriz\ de\ Posicionamento.xlsx
+xdg-mime query filetype Downloads/\(AULA\ 03\)\ Modelo\ Editavél\ -\ Matriz\ de\ Posicionamento.xlsx
+nvim .local/share/applications/mimeapps.list
+python3 problema2.py
+nvim .config/sway/config
+nvim problema2.py
+paru -S arttime-git
+cal
+nvim .config/waybar/config
+ssh terminal.shop
+cd Downloads
+unzip BL2Fix\ Installer-277-1-1-1614630663.zip
+ls
+cd Downloads 
+unzip PythonSDK.zip
+cd Downloads
+ls
+cd Binaries
+ls
+..
+rm -rf Binaries
+ls
+mkdir pythonsdk
+mv PythonSDK.zip pythonsdk/.
+cd pythonsdk
+ls
+unzip PythonSDK.zip
+ls
+rm *.zip
+ls
+cd Downloads
+ls
+mkdir hex-multitool
+mv BL\ Hex-Multitool\ .NET\ 4.5.zip hex-multitool
+cd hex-multitool
+ls
+unzip BL\ Hex-Multitool\ .NET\ 4.5.zip
+ls
+rm BL\ Hex-Multitool\ .NET\ 4.5.zip
+ls
+htop
+pulsemixer
+ls
+pkill pipewire-pulse 
+pkill pipewire
+pkill pipewire-pulse
+pkill audacity
+pulsemixer
+pkill audacity
+pkill pipewire-pulse
+pkill audacity
+pulsemixer
+cd Downloads
+unzip literatura\ brasileira-20240502T225954Z-001.zip
+mv literatura\ brasileira ..
+..
+ls
+systemctl start bluetooth.service
+pulsemixer
+yt-dlp -x 'https://www.youtube.com/watch?v=kIrDpvl0Xvk'
+sudo pacman -Syu
+sudo pacman -Syyu
+paru -Syu
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+ls
+cd Downloads
+ls
+unzip lygia\ fagundes\ telles-20240502T232106Z-001.zip ../literatura\ brasileira
+unzip lygia\ fagundes\ telles-20240502T232106Z-001.zip -d ../literatura\ brasileira
+unzip hilda\ hilst-20240502T232022Z-001.zip -d ../literatura\ brasileira
+unzip carolina\ maria\ de\ jesus-20240502T231957Z-001.zip -d ../literatura\ brasileira
+unzip clarice\ lispector\ -20240502T232010Z-001.zip -d ../literatura\ brasileira
+unzip Downloads/\[ciências\ sociais\]-20240504T134054Z-001.zip 
+ls
+cd 
+nvim np.py
+python np.py
+pulsemixer
+nvim .config/sway/config
+xdg-open Downloads/7\ -\ Lists.pdf Downloads/apresentaçã�o-texto.pdf Downloads/\[Aula\ 02\]\ Modelo\ de\ Entrega\ EditÃ�vel\ -\ Árvore\ de\ Problemas.pdf Downloads/\[AULA\ 03\]\ Instruções\ -\ Brainstorming.pdf Downloads/\[AULA\ 03\]\ Instruções\ -\ Matriz\ de\ Posicionamento.pdf Downloads/\[AULA\ 2\]\ Instruções\ -\ Mapa\ de\ Empatia.4.pdf Downloads/Brainstorming\ \(1\).pdf Downloads/Brainstorming.pdf Downloads/Desafio\ de\ Introdução\ -\ Escola\ de\ VeterinÃ�ria\ .pdf Downloads/Pesquisa\ Desk\ -\ GRUPO\ 35.pdf 
+xdg-open Downloads/7\ -\ Lists.pdf
+zathura Downloads/7\ -\ Lists.pdf &!
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+python list.py
+nvim list.py
+playerctl
+playerctl -k
+playerctl -l
+playerctl --player=spotify play-pause
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+python list.py
+nvim list.py
+sudo xremap config.yml --device /dev/input/event4 
+nvim config.yml
+sudo xremap config.yml --device /dev/input/event4 
+python list.py
+\:q!
+nvim list.py
+sudo xremap config.yml --device /dev/input/event4 
+r
+nvim list.py
+sudo pacman -S r
+R
+date "+%Y-%d-%m-%H:%M:%S
+date "+%Y-%d-%m-%H:%M:%S"
+nvim .config/sway/config
+unzip Downloads/Jornada\ Python\ da\ Hashtag-20240509T114153Z-001.zip
+ls
+cd Jornada\ Python\ da\ Hashtag
+ls
+cd Aula\  
+cd Aula\ 1\ -\ Python\ PowerUp
+ls
+zathura Apostila\ Jornada\ Python\ -\ Aula\ 1.pdf
+..
+ls
+zathura Aula\ 2\ -\ Python\ Insights/Apostila\ Jornada\ Python\ -\ Aula\ 2.pdf
+..
+mv Jornada\ Python\ da\ Hashtag/ Documents/Code/Python/
+cd Documents/Code/Python/Jornada\ Python\ da\ Hashtag/Aula\ 1\ -\ Python\ PowerUp
+ls
+yt-dlp 'https://youtu.be/qc39uUfYraQ'
+..
+cd Aula\ 3\ -\ Python\ IA
+yt-dlp 'https://youtu.be/g5Y3CNL4K9Q'
+sudo pacman -S syncthing
+syncthing
+mv faculdade Documents/faculdade
+icloud-download faculdade
+pyicloud
+mv Documents/faculdade .
+cd faculdade
+ls
+mv faculdade Sync
+ls
+cd Sync
+ls
+systemctl enable syncthing
+systemctl enable syncthing@
+systemctl enable syncthing@.service
+systemctl enable syncthing@basqs.service
+lmms 
+pulsemixer
+cd Music
+ls
+unzip My\ Way\ \[kIrDpvl0Xvk\]-C\#\ minor-97bpm-441hz.zip
+rm My\ Way\ \[kIrDpvl0Xvk\]-bass-C\#\ minor-97bpm-441hz.mp3  My\ Way\ \[kIrDpvl0Xvk\]-drums-C\#\ minor-97bpm-441hz.mp3 My\ Way\ \[kIrDpvl0Xvk\]-metronome-C\#\ minor-97bpm-441hz.mp3 My\ Way\ \[kIrDpvl0Xvk\]-other-C\#\ minor-97bpm-441hz.mp3 My\ Way\ \[kIrDpvl0Xvk\]-vocals-C\#\ minor-97bpm-441hz.mp3 
+mkdir My\ Way
+mv My\ Way\ \[kIrDpvl0Xvk\]-C\#\ minor-97bpm-441hz.zip My\ Way
+cd My\ Way
+ls
+unzip *
+rm My\ Way\ \[kIrDpvl0Xvk\]-C\#\ minor-97bpm-441hz.zip
+pulsemixer
+ls
+pkill ArdourGUI
+pkill pipewire-pulse
+pkill pipewire
+cd Music/Ardour/My\ way/export
+ls
+l
+mpv session
+mpv session.wav
+pkill ArdourGUI
+pkill pipewire
+pipewire-pulse
+pulsemixer
+pipewire-pulse
+pulsemixer
+pkill pipewire
+pkill ArdourGUI
+pkill pipewire
+pkill pipewire-pulse
+pulsemixer
+pkill pipewire-pulse
+pkill pipewire
+pkill pipewire-pulse
+pulsemixer
+spot
+man spot
+spot -h
+systemctl disable syncthing@basqs.service
+systemctl --user enable syncthing.service 
+systemctl --user start syncthing.service
+ls
+mv Sync/faculdade .
+ls
+cd faculdade
+ls
+..
+sudo pacman -S qbittorrent
+mkdir linguas
+cd linguas
+wget https://theswissbay.ch/pdf/Books/Linguistics/
+rm index.html
+cd li
+cd linguas
+wget https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/German%20Grammar%2C%20Teach%20Yourself%20%28Wilson%29.pdf
+mkdir german
+mv German\ Grammar,\ Teach\ Yourself\ \(Wilson\).pdf german
+cd german
+ls
+wget https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/German%2C%20A%20Grammar%20of%20Contemporary%20%28Verlag%29.pdf https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/German%2C%20Teach%20Yourself%20%28Adams%2C%20Wells%20%26%20Jenkins%29.pdf https://theswissbay.ch/pdf/Books/Linguistics/Mega%20linguistics%20pack/Indo-European/Germanic/German%2C%20Teach%20Yourself%20More%20%28Wells%29.pdf 
+cd linguas
+ls
+mkdir chinese
+mv Mandarin\ Chinese\ -\ The\ Official\ _int_\ How\ to\ Learn\ A\ Foreign\ Language\ Guide\ Wiki.pdf chinese
+cd .org
+ls
+ls -a
+..
+rm .org
+rm -r .org
+rm Sync
+rm -r Sync
+ls
+cd org
+ls
+nvim inbox.org
+nvim org/inbox.org
+cd org
+ls
+~/org
+ls
+pkill Emacs && emacs --daemon
+pkill emacs
+emacs --daemon
+pkill emacs && emacs --daemon
+ls org
+ls
+ls org
+pkill emacs && emacs --daemon
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+pkill emacs && emacs --daemon
+cd Videos/videos
+yt-dlp "https://bunkr.si/v/upmWD4jKqgyRR"
+yt-dlp "https://bunkr.si/v/upmWD4jKqgyRR" "https://bunkr.si/v/oscn6286EpWqo" "https://bunkr.si/v/tRTF6Qgys8LOk" https://bunkr.si/v/uJDHznX78HNmm https://bunkr.si/v/daJHoq4pPQR8P https://bunkr.si/v/PLn4C1l0YWmbN https://bunkr.si/v/BhzDXxXEOX3E9 https://bunkr.si/v/nbEc6AEtsnhPx https://bunkr.si/v/iujKKbB2fzAvt https://bunkr.si/v/7Wf7URebvuWd2 https://bunkr.si/v/mnAfPnBKjTYkl https://bunkr.si/v/W4kcfYCrPHr7o https://bunkr.si/v/34Xv9VoeuQlcL https://bunkr.si/v/jj0ueKoTjaZAb https://bunkr.si/v/tQP2y2dcbbkdf  https://bunkr.si/v/khVjpJGf3zTOE https://bunkr.si/v/ioHe1rek8Eqqw https://bunkr.si/v/MYaHGjgEsABlv https://bunkr.si/v/pW16cQsSXu2s0 https://bunkr.si/v/uXIbg8pDi1syH https://bunkr.si/v/gMc0cU5jMg1qg
+playerctl --player=spotify 
+playerctl --player=spotify status
+playerctl --player=spotify metadata
+cd Documents/Code/Python/Jornada\ Python\ da\ Hashtag/Aula\ 2\ -\ Python\ Insights
+yt-dlp 'https://youtu.be/bvGIaQB5cTI'
+..
+cd Aula\ 3\ -\ Python\ IA
+ls
+..
+cd Aula\ 4\ -\ Python\ Dev
+yt-dlp 'https://youtu.be/X42k0nAo74c'
+pulsemixer
+nnn
+yt-dlp 'https://youtu.be/X42k0nAo74c'
+mv Python\ Dev＃�\ Criação\ de\ Sites\ e\ Sistemas\ com\ Python\ ｃ�\ Jornada\ Python\ \[Aula\ 4\]\ \[X42k0nAo74c\].mkv Documents/Code/Python/Jornada\ Python\ da\ Hashtag/Aula\ 4\ -\ Python\ Dev
+ls
+nnn
+nvim .zprofile
+nvim .zshrc
+nnn
+ls
+nnn
+sudo xremap config.yml --device /dev/input/event4 &!
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+///
+ls
+mv org/jinjer.pdf Sync/
+ls
+ls -a
+ls -a | wc
+ls -a | wc -l
+ls -a | wc -
+ls -a | wc 
+ls org
+ls -a org
+ls
+find -type f -name '*.~undo-tree~'
+find -type f -name '*.~undo-tree~' | head
+find -type f -name '*.~undo-tree~'
+find -type f -name '*.~undo-tree~' -delete
+sudo pacman -Syyu
+systemctl start bluetooth.service
+pulsemixer
+bum
+cal
+nvim list.py
+nnn
+cd Documents/Code/Python/
+nvim list.py
+cd Downloads
+unzip RogueLands.zip
+cd RogueLands
+ls
+fd d3d9.dll
+sudo xremap config.yml --device /dev/input/event4 &!
+sudo xremap config.yml --device /dev/input/event4
+sudo xremap config.yml --device /dev/input/event4 &!
+///
+sudo pacman -Syyu
+ls
+mkdir C
+cd C
+yt-dlp 'https://www.youtube.com/playlist?list=PLEMXAbCVnmY6RverunClc_DMLNDd3ASRp'
+yt-dlp 'https://www.youtube.com/playlist?list=PLEMXAbCVnmY6RverunClc_DMLNDd3ASRp' 'https://www.youtube.com/playlist?list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7'
+cd Sync/Docs
+ls
+mv jinjer.pdf Foundations:\ Data,\ Data,\ Everywhere.pdf
+ls
+zathura Foundations:\ Data,\ Data,\ Everywhere.pdf
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+///
+nvim .config/nvim/after/plugin/lsp.lua
+nvim main.cpp
+nvim main.cpp
+nvim .config/nvim/lua/bezo/packer.lua
+nvim .config/nvim/after/plugin/lsp.lua
+nvim .config/nvim/lua/bezo/packer.lua
+nvim .config/nvim/after/plugin/lsp.lua
+nvim main.cpp
+rm main.cpp
+jq
+sudo pacman -S jq
+jq
+cd Downloads
+ls
+mv PythonSDK.zip ..
+..
+unzip PythonSDK.zip
+fd C:/Program\ Files/Epic\ Games
+fd 'C:/Program\ Files/Epic\ Games'
+fd 'Program\ Files/Epic\ Games'
+fd 'Program\ Files/Epic\ Games/'
+fd Program\ Files/Epic\ Games/
+fd Epic
+nnn
+unzip PythonSDK.zip
+fd Binaries/Win32
+fd 'Binaries/Win32'
+fd --full-path 'Binaries/Win32'
+fd Borderlands2.exe
+ls
+sudo pacman -S unrar
+unrar -e *.rar
+unrar -e Axton\ Lvl\ 72\ GameSave-5-v1-0.rar Gaige\ Lvl\ 72\ GameSave-5-v1-0.rar Krieg\ Lvl\ 72\ GameSave-5-v1-0.rar Zer0\ Lvl\ 72\ Game\ Save-5-v1-0.rar 
+unrar x Axton\ Lvl\ 72\ GameSave-5-v1-0.rar Gaige\ Lvl\ 72\ GameSave-5-v1-0.rar Krieg\ Lvl\ 72\ GameSave-5-v1-0.rar Zer0\ Lvl\ 72\ Game\ Save-5-v1-0.rar 
+ls
+unrar e Axton\ Lvl\ 72\ GameSave-5-v1-0.rar
+ls
+rm Axton\ Lvl\ 72\ GameSave-5-v1-0.rar
+unrar e Gaige\ Lvl\ 72\ GameSave-5-v1-0.rar Krieg\ Lvl\ 72\ GameSave-5-v1-0.rar Zer0\ Lvl\ 72\ Game\ Save-5-v1-0.rar 
+unrar e Gaige\ Lvl\ 72\ GameSave-5-v1-0.rar
+rm Gaige\ Lvl\ 72\ GameSave-5-v1-0.rar
+unrar e Krieg\ Lvl\ 72\ GameSave-5-v1-0.rar
+rm Krieg\ Lvl\ 72\ GameSave-5-v1-0.rar
+unrar e Zer0\ Lvl\ 72\ Game\ Save-5-v1-0.rar
+rm Zer0\ Lvl\ 72\ Game\ Save-5-v1-0.rar
+ls
+unzip Gibbed\'s\ Borderlands\ 2\ Save\ Editor\ v1.0.46-21-1-0-46-1591048527.zip
+ls
+rm -r Binaries LICENSE.txt README.txt git-log.txt Gibbed.Borderlands2.SaveEdit.exe Gibbed.Borderlands2.SaveEdit.exe.config 
+ls
+mkdir Gibbed
+mv Gibbed\'s\ Borderlands\ 2\ Save\ Editor\ v1.0.46-21-1-0-46-1591048527.zip Gibbed
+cd Gibbed
+unzip Gibbed\'s\ Borderlands\ 2\ Save\ Editor\ v1.0.46-21-1-0-46-1591048527.zip
+rm Gibbed\'s\ Borderlands\ 2\ Save\ Editor\ v1.0.46-21-1-0-46-1591048527.zip
+ls
+unrar e Maya\ Save-162-1-0-1554510686.rar
+rm Maya\ Save-162-1-0-1554510686.rar
+mkdir Roguelands
+cd Roguelands
+unzip RoguelandsGamemode.zip-396-1-0-8-1712306870.zip
+sudo pacman -S qutebrowser
+reboot
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+nvim .config/nvim/lua/bezo/packer.lua
+cd .dotfiles
+cd .config
+mkdir river
+cd river
+ls
+mv ~/Downloads/init .
+ls
+chmod +x init
+cd
+cd .dotfiles
+stow .
+ls
+paru -S river
+nvim .config/river/init
+nvim .xinitrc
+nvim .zprofile
+nvim .config/river/init
+ls
+nvim .config/river/init
+nvim .config/sway/config
+nvim .config/river/init
+bemenu-run -i -p '' --fn 'IosevkaNerdFont 14' --hb '#a9b1d6' --hf '#1a1b26' --nb '#1a1b26' --nf '#a9b1d7' --tb '#1a1b26' --tf '#a9b1d6' --ab '#1a1b26' --af '#a9b1d6' 
+nvim .config/river/init
+emacs
+pkill clightd
+sudo pkill clightd
+htop
+layman
+nvim .config/sway/config
+nvim .config/river/init
+cd .config/river
+curl https://raw.githubusercontent.com/angelofallars/dotfiles/8f8e45deb25f1231a0ea4be0bfe19e4dbb161a3e/river/init > init-template
+cat init-template
+nvim .config/river/init
+alacritty
+foot
+systemctl enable cups.socket
+sudo pacman -S deepin-printer gutenprint
+sudo pacman -S deepin-printer gutenprint usbutils
+systemctl start cups.service
+pkill dde-printer
+sudo pacman -R deepin-desktop-base deepin-printer
+sudo pacman -R deepin-printer
+sudo pacman -R deepin-desktop-base
+sudo pacman -R deepin-desktop-base dtkcore
+sudo pacman -R deepin-desktop-base dtkcore dtkgui dtkcommon dtkwidget
+paru -S gtklp
+sudo pacman -S print-manager 
+sudo pacman -S cups
+sudo pacman -S cups-pdf
+lpinfo --include-schemes dnssd -v
+kde-add-printer
+configure-printer
+kde-add-printer --add-printer
+zathura Sync/Obmep/gabaritof1.pdf
+pdflatex
+cd faculdade/geqlsm
+ls
+pdflatex edital.tex
+ls
+pdflatex edital.tex
+sudo texconfig rehash
+sudo pacman -S extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric
+sudo pacman -S enchant
+sudo pacman -S nyxt
+sudo mount /dev/sda1 /mnt
+cd /mnt
+ls
+emacs
+enchant-
+enchant-2
+enchant-2 -d
+enchant-2 -h
+man enchant
+enchant-2 -
+enchant-2 -d pt_BR
+nuspell
+sudo pacman -S nuspell
+nuspell 
+hunspell
+hunspell -h
+sudo pacman -S hunspell-en_us 
+paru -S hunspell-pt-br
+sudo pacman -S libreoffice-fresh-pt-br
+hunspell
+hunspell -h
+hunspell -d pt_BR faculdade/geqlsm/edital.org
+pkill emacs && emacs --daemon
+lpinfo --include-schemes dnssd -v
+sudo pamcan -S lpd
+sudo pacman -S lpd
+lpr
+lpr -h
+kde-add-printer --add-printer
+dmesg | grep -i parport
+lpstat -a\
+
+cat /etc/printcap
+ping 10.0.0.154
+ipptool
+lp
+lp Sync/Obmep/fase1.pdf
+lpstat -p -d
+lpstat
+lpstat -p
+lp -d lp0
+lpoptions -l
+lpoptions -d
+lp
+lp -h
+lp -d lp0
+ippfind
+lp -d 10.0.0.154 Sync/Obmep/fase1.pdf
+ippfind
+sudo pacman -S cups-filters libcups 
+ippfind
+avahi-
+systemctl start avahi-daemon.service
+ippfind
+sudo pacman -S system-config-printer
+paru -S epson-inkjet-printer-escpr
+paru -Qs escpr
+paru -Q escpr
+paru -QS escpr
+paru -Q
+paru -Qs epson
+nvim cpp-primer/makefile
+python
+sudo umount /mnt
+pulsemixer
+pkill ArdourGUI
+pkill audacity
+pkill pipewire-pulse
+pkill pipewire
+pulsemixer
+pkill pipewire
+pkill pipewire 
+pkill pipewire-pulse
+pulsemixer
+pulsemixer
+pkill ArdourGUI
+pkill pipewire
+pulsemixer
+wireplumber
+man wireplumber
+footclient
+foot
+pkill wireplumber 
+pulsemixer
+river
+nvim .config/river/init
+pkill clightd
+sudo pkill clightd
+sudo pacman -S xinput
+waybar
+xkbcli
+xkbcli interactive-wayland
+xkbcomp -h
+waybar
+nvim .config/waybar/config
+nvim .config/waybar/style.css
+riverctl input pointer-1267-12691-ELAN06C7:00_04F3:3193_Touchpad tap
+riverctl input pointer-1267-12691-ELAN06C7:00_04F3:3193_Touchpad tap enabled
+setxkbmap tap enable
+ls
+nvim .config/river/init
+nvim .config/sway/config
+l
+htop
+setxkbmap -layout br
+htop
+setxkbmap br
+sudo setxkbmap br
+setxkbmap
+setxkbmap -h
+nvim .config/river/init
+XKB_DEFAULT_LAYOUT=br
+export XKB_DEFAULT_LAYOUT=br
+sudo xremap config.yml --device /dev/input/event4 
+nvim export
+mv export export.sh
+nvim export.sh
+nvim .config/river/init
+nvim
+ls
+nvim .zprofile
+sway
+river
+./export.sh
+chmod +x export.sh
+./export.sh
+river
+ls
+nvim .zprofile
+nvim export.sh
+nvim .config/river/init-template
+rg Tab .config/river/init-template
+rivertile attach-mode
+rivertile -main-ratio 0.5
+nvim .config/river/init
+nvim config.yml
+nvim .zprofile
+pkill clightd
+sudo pkill clightd
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93'
+pkill clight 
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93'
+pkill clight 
+pkill clightd 
+htop
+riverctl default-attach-mode bottom
+nvim .config/river/init
+pkill clightd 
+sudo pkill clightd 
+sudo pkill clight
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93'
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+nvim .config/river/init
+nvim .config/sway/config
+nvim .config/river/init
+riverctl map normal XF86MonBrightnessUp   exec 'brightnessctl -c backlight set +5%'\
+
+riverctl map normal XF86BrightnessUp   exec 'brightnessctl -c backlight set +5%'\
+
+nvim .config/river/init-template
+nvim .config/river
+nvim .config/river/init
+nvim .config/sway/config
+nvim .config/river/init
+riverctl map normal None XF86MonBrightnessUp "brightnessctl -c backlight set 5+%"
+brightnessctl -c backlight set 5%-
+brightnessctl -c backlight set 5%+
+riverctl map normal XF86BrightnessUp  exec 'brightnessctl -c backlight set +5%'\
+
+riverctl map normal XF86MonBrightnessUp   exec 'brightnessctl -c backlight set +5%'\
+
+riverctl map normal None XF86MonBrightnessUp   exec 'brightnessctl -c backlight set +5%'\
+
+riverctl map normal XF86AudioMute         exec 'pulsemixer --toggle-mute'\
+
+nvim .config/sway/config
+nvim .config/river/init
+pkill clightd 
+sudo pkill clightd 
+sudo pkill clight
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93' &
+nvim .config/river/init
+riverctl map normal Super O spawn "firefox"\
+
+sudo xremap config.yml --device /dev/input/event4 
+reboot
+ls
+htop
+riverctl set-focused-tags 1
+riverctl set-focused-tags 2
+nvim .config/river/init
+pulsemixer
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93' &
+pkill clightd 
+sudo pkill clightd 
+sudo pkill clight
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93' &
+cd Downloads
+tar -x riverwm-utils-0.0.9.tar.gz
+tar -xf riverwm-utils-0.0.9.tar.gz
+cd riverwm-utils-0.0.9
+ls
+nvim riverwm_utils/__init__.py
+nvim riverwm_utils/riverwm_utils.py
+sudo xremap config.yml --device /dev/input/event4 
+riverctl set-view-tags last
+riverctl set-view-tags previous
+riverctl set-view-tags 0
+riverctl set-view-tags 3
+riverctl set-view-tags 2
+riverctl set-view-tags 1
+riverctl set-focused-tags previous
+riverctl set-focused-tags last
+riverctl close
+riverctl
+riverctl toggle-view-tags
+riverctl toggle-view-tags 2
+riverctl toggle-view-tags last
+riverctl toggle-view-tags 3
+riverctl toggle-view-tags 2
+riverctl toggle-view-tags 3
+riverctl toggle-view-tags 1
+riverctl toggle-focused-tags
+riverctl toggle-focused-tags 2 3
+riverctl toggle-focused-tags 2 
+riverctl focus-output previous
+nvim .config/sway/config
+riverctl swap previous
+riverctl focus-previous-tags
+nvim .config/river/init
+pkill clightd
+sudo pkill clightd
+sudo pkill clight
+clight --no-backlight --no-screen --lat='-19.91' --lon='-43.93' &
+poweroff
+nvim .config/sway/config
+ls
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+///
+/
+swaymsg
+riverctl map normal Shift Print spawn 'slurp | grim -g - ~/Pictures/screenshots/$(date "+%Y-%d-%m-%H:%M").png'
+slurp
+cd Pictures/screenshots
+imv 2024-16-05-09:29.png
+du -ah . | sort -hr | head -n 10
+sudo pacman -S swappy
+swappy
+swappy Pictures/screenshots/2024-14-04-20:14.png
+swappy Pictures/screenshots/2024-14-04-20:14.png 
+nvim .config/sway/config
+nvim .config/alacritty/alacritty.yml
+nvim .config/alacritty/alacritty.toml
+ls
+lxpolkit
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+ls
+nvim .config/river/init
+curl https://raw.githubusercontent.com/drishal/dotfiles/master/emacs/config.org > config-template.org
+sudo mount /dev/sda1 /mnt
+sudo xremap config.yml --device /dev/input/event4 
+sudo xremap config.yml --device /dev/input/event4 &!
+///
+cd /mnt/Documents/
+ls
+ls -la
+ls -a
+cd .org
+..
+ls
+cd .org
+ls
+..
+ls
+fd roam
+cd .config/emacs
+ls
+ls -a
+nvim completion.el
+pkill emacs
+emacs --daemon
+emacs
+emacs --daemon
+ls
+mv completion.el prog-completion.el
+brave
+pkill brave
+pkill brave 
+brave
+pkill ArdourGUI
+pulsemixer
+pkill pipewire
+pkill emacs && emacs --daemon
+pkill emacs && \
+echo .
+pkill emacs\
+
+emacs
+pkill pipewire
+pkill ArdourGUI
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+exec  zsh
+ls
+zinit
+zinit load zdharma-continuum/fast-syntax-highlighting
+ls
+zinit
+whereis zinit
+zinit
+nvim texto
+sudo umount /sda
+sudo umount /mnt
+mv veterinaria.png Sync
+nvim .zshrc
+cp .zshrc zshrc-back
+echo 'O  Hospital  VeterinÃ�rio  da  UFMG  pratica  um  tipo  de  compostagem  de \
+resíduos, porém, de forma pouco controlada, em Ã�reas abertas, sem supervisão \
+especializada ou controle de qualidade. O ambiente foi visitado e os problemas \
+encontrados foram causa de grande reflexão para o nosso grupo, de modo que o \
+projeto pensado foi a realização de uma horta, juntamente com uma composteira.\
+ Atualmente, o destino dos resíduos é variÃ�vel, devido Ã� intensa atividade de \
+experimentação, sendo encaminhado ocasionalmente para uma fazenda, o museu \
+ou Ã�reas verdes da UFMG, mobilizando veículos da universidade para o transporte. \
+Não  hÃ�  equipamentos  apropriados  para  o  transbordo,  que  é  realizado \
+manualmente. A equipe de tratadores utiliza um trator e carrinhos de mão para a \
+limpeza das baias. A horta e a composteira ocorreriam em uma das Ã�reas verdes, \
+próximas ao hospital, de modo a facilitar ambos os processos. \
+A respeito da horta, selecionaremos cuidadosamente as plantas de acordo \
+com a disponibilidade de luz solar, espaço e preferências alimentares. Faremos uso \
+de  substratos  ricos  em  nutrientes  e  materiais  orgÃ�nicos  para  garantir  o \
+desenvolvimento saudÃ�vel das plantas. A compostagem serÃ� fundamental para \
+fornecer nutrientes essenciais ao solo. Implementaremos sistemas de irrigação \
+eficientes, como gotejamento ou irrigação por capilaridade, para garantir que as \
+plantas recebam a quantidade certa de Ã�gua, sem desperdício. Optaremos por \
+métodos de controle de pragas orgÃ�nicos e sustentÃ�veis, como a introdução de \
+plantas repelentes e o uso de extratos vegetais, minimizando o uso de produtos químicos nocivos.\
+A composteira serÃ� o coração do nosso sistema, transformando resíduos \
+orgÃ�nicos em adubo rico em nutrientes para alimentar nossa horta. FuncionarÃ� \
+como uma mÃ�quina de reciclagem interna, convertendo restos de alimentos em \
+recursos valiosos para o cultivo de novas plantas. Os resíduos orgÃ�nicos gerados \
+no hospital, como cascas de frutas, legumes não utilizados e restos de alimentos, \
+serão separados e depositados na composteira. Sob condições controladas de \
+umidade, temperatura e aeração, os microorganismos presentes nos resíduos \
+iniciarão o processo de decomposição, transformando-os em composto orgÃ�nico. \
+O  composto  resultante  serÃ�  usado  como  fertilizante  natural  na  horta, além de continuar a ser utilizado em outras Ã�reas verdes da UFMG,\
+enriquecendo o solo com nutrientes essenciais e promovendo o crescimento saudÃ�vel  das  plantas.  Ao  fechar  o  ciclo  de  nutrientes  dentro  do  hospital, \
+reduziremos significativamente a quantidade de resíduos orgÃ�nicos enviados para \
+aterros sanitÃ�rios, contribuindo para a redução do impacto ambiental e para a \
+promoção de prÃ�ticas sustentÃ�veis.\
+Além  dos  problemas  jÃ�  mencionados,  o  gerenciamento  no  Hospital \
+VeterinÃ�rio é afetado por problemas de comunicação e governança. Uma proposta \
+de solução poderia ser por meio de um aplicativo ou plataforma para auxiliar no \
+manejo dos resíduos, de modo a auxiliar no manejo, organização e gerenciamento \
+da  horta  do  Hospital  VeterinÃ�rio.  Isso  ocorre  por  meio  das  seguintes \
+funcionalidades: uma agenda de tarefas, um banco de dados de plantas, uma \
+função de registro de manutenções, uma seção de recursos educacionais com \
+guias prÃ�ticos sobre compostagem e jardinagem e um chat para promover a \
+colaboração entre os usuÃ�rios.\
+Por  fim,  menciona-se  que  a  horta  seria  viÃ�vel  somente  para  fins \
+experimentais  e  educacionais,  todavia,  os  alimentos  produzidos  não  seriam \
+adequados para o consumo humano, devido a falta de garantia na qualidade do \
+processo. O maior volume de resíduos é composto por fezes e urina, além de \
+serragem e alguns restos de comida, como silagem, grãos e capim, sem a utilização \
+frequente de ração.\
+Complementando as ideias mencionadas até então, a possibilidade de uma \
+parceria com o Centro Pedagógico da UFMG, a partir de projetos interativos na \
+horta, é uma forma de engajar a comunidade escolar e conscientizar os estudantes \
+desde a infÃ�ncia. Portanto, percebe-se que essa iniciativa não só contribui para a \
+redução de resíduos orgÃ�nicos, mas também promove a educação ambiental.\
+'
+ls
+echo 'O  Hospital  VeterinÃ�rio  da  UFMG  pratica  um  tipo  de  compostagem  de \
+resíduos, porém, de forma pouco controlada, em Ã�reas abertas, sem supervisão \
+especializada ou controle de qualidade. O ambiente foi visitado e os problemas \
+encontrados foram causa de grande reflexão para o nosso grupo, de modo que o \
+projeto pensado foi a realização de uma horta, juntamente com uma composteira.\
+ Atualmente, o destino dos resíduos é variÃ�vel, devido Ã� intensa atividade de \
+experimentação, sendo encaminhado ocasionalmente para uma fazenda, o museu \
+ou Ã�reas verdes da UFMG, mobilizando veículos da universidade para o transporte. \
+Não  hÃ�  equipamentos  apropriados  para  o  transbordo,  que  é  realizado \
+manualmente. A equipe de tratadores utiliza um trator e carrinhos de mão para a \
+limpeza das baias. A horta e a composteira ocorreriam em uma das Ã�reas verdes, \
+próximas ao hospital, de modo a facilitar ambos os processos. \
+A respeito da horta, selecionaremos cuidadosamente as plantas de acordo \
+com a disponibilidade de luz solar, espaço e preferências alimentares. Faremos uso \
+de  substratos  ricos  em  nutrientes  e  materiais  orgÃ�nicos  para  garantir  o \
+desenvolvimento saudÃ�vel das plantas. A compostagem serÃ� fundamental para \
+fornecer nutrientes essenciais ao solo. Implementaremos sistemas de irrigação \
+eficientes, como gotejamento ou irrigação por capilaridade, para garantir que as \
+plantas recebam a quantidade certa de Ã�gua, sem desperdício. Optaremos por \
+métodos de controle de pragas orgÃ�nicos e sustentÃ�veis, como a introdução de \
+plantas repelentes e o uso de extratos vegetais, minimizando o uso de produtos químicos nocivos.\
+A composteira serÃ� o coração do nosso sistema, transformando resíduos \
+orgÃ�nicos em adubo rico em nutrientes para alimentar nossa horta. FuncionarÃ� \
+como uma mÃ�quina de reciclagem interna, convertendo restos de alimentos em \
+recursos valiosos para o cultivo de novas plantas. Os resíduos orgÃ�nicos gerados \
+no hospital, como cascas de frutas, legumes não utilizados e restos de alimentos, \
+serão separados e depositados na composteira. Sob condições controladas de \
+umidade, temperatura e aeração, os microorganismos presentes nos resíduos \
+iniciarão o processo de decomposição, transformando-os em composto orgÃ�nico. \
+O  composto  resultante  serÃ�  usado  como  fertilizante  natural  na  horta, além de continuar a ser utilizado em outras Ã�reas verdes da UFMG,\
+enriquecendo o solo com nutrientes essenciais e promovendo o crescimento saudÃ�vel  das  plantas.  Ao  fechar  o  ciclo  de  nutrientes  dentro  do  hospital, \
+reduziremos significativamente a quantidade de resíduos orgÃ�nicos enviados para \
+aterros sanitÃ�rios, contribuindo para a redução do impacto ambiental e para a \
+promoção de prÃ�ticas sustentÃ�veis.\
+Além  dos  problemas  jÃ�  mencionados,  o  gerenciamento  no  Hospital \
+VeterinÃ�rio é afetado por problemas de comunicação e governança. Uma proposta \
+de solução poderia ser por meio de um aplicativo ou plataforma para auxiliar no \
+manejo dos resíduos, de modo a auxiliar no manejo, organização e gerenciamento \
+da  horta  do  Hospital  VeterinÃ�rio.  Isso  ocorre  por  meio  das  seguintes \
+funcionalidades: uma agenda de tarefas, um banco de dados de plantas, uma \
+função de registro de manutenções, uma seção de recursos educacionais com \
+guias prÃ�ticos sobre compostagem e jardinagem e um chat para promover a \
+colaboração entre os usuÃ�rios.\
+Por  fim,  menciona-se  que  a  horta  seria  viÃ�vel  somente  para  fins \
+experimentais  e  educacionais,  todavia,  os  alimentos  produzidos  não  seriam \
+adequados para o consumo humano, devido a falta de garantia na qualidade do \
+processo. O maior volume de resíduos é composto por fezes e urina, além de \
+serragem e alguns restos de comida, como silagem, grãos e capim, sem a utilização \
+frequente de ração.\
+Complementando as ideias mencionadas até então, a possibilidade de uma \
+parceria com o Centro Pedagógico da UFMG, a partir de projetos interativos na \
+horta, é uma forma de engajar a comunidade escolar e conscientizar os estudantes \
+desde a infÃ�ncia. Portanto, percebe-se que essa iniciativa não só contribui para a \
+redução de resíduos orgÃ�nicos, mas também promove a educação ambiental.\
+'
+echo 'O  Hospital  VeterinÃ�rio  da  UFMG  pratica  um  tipo  de  compostagem  de \
+resíduos, porém, de forma pouco controlada, em Ã�reas abertas, sem supervisão \
+especializada ou controle de qualidade. O ambiente foi visitado e os problemas \
+encontrados foram causa de grande reflexão para o nosso grupo, de modo que o \
+projeto pensado foi a realização de uma horta, juntamente com uma composteira.\
+ Atualmente, o destino dos resíduos é variÃ�vel, devido Ã� intensa atividade de \
+experimentação, sendo encaminhado ocasionalmente para uma fazenda, o museu \
+ou Ã�reas verdes da UFMG, mobilizando veículos da universidade para o transporte. \
+Não  hÃ�  equipamentos  apropriados  para  o  transbordo,  que  é  realizado \
+manualmente. A equipe de tratadores utiliza um trator e carrinhos de mão para a \
+limpeza das baias. A horta e a composteira ocorreriam em uma das Ã�reas verdes, \
+próximas ao hospital, de modo a facilitar ambos os processos. \
+A respeito da horta, selecionaremos cuidadosamente as plantas de acordo \
+com a disponibilidade de luz solar, espaço e preferências alimentares. Faremos uso \
+de  substratos  ricos  em  nutrientes  e  materiais  orgÃ�nicos  para  garantir  o \
+desenvolvimento saudÃ�vel das plantas. A compostagem serÃ� fundamental para \
+fornecer nutrientes essenciais ao solo. Implementaremos sistemas de irrigação \
+eficientes, como gotejamento ou irrigação por capilaridade, para garantir que as \
+plantas recebam a quantidade certa de Ã�gua, sem desperdício. Optaremos por \
+métodos de controle de pragas orgÃ�nicos e sustentÃ�veis, como a introdução de \
+plantas repelentes e o uso de extratos vegetais, minimizando o uso de produtos químicos nocivos.\
+A composteira serÃ� o coração do nosso sistema, transformando resíduos \
+orgÃ�nicos em adubo rico em nutrientes para alimentar nossa horta. FuncionarÃ� \
+como uma mÃ�quina de reciclagem interna, convertendo restos de alimentos em \
+recursos valiosos para o cultivo de novas plantas. Os resíduos orgÃ�nicos gerados \
+no hospital, como cascas de frutas, legumes não utilizados e restos de alimentos, \
+serão separados e depositados na composteira. Sob condições controladas de \
+umidade, temperatura e aeração, os microorganismos presentes nos resíduos \
+iniciarão o processo de decomposição, transformando-os em composto orgÃ�nico. \
+O  composto  resultante  serÃ�  usado  como  fertilizante  natural  na  horta, além de continuar a ser utilizado em outras Ã�reas verdes da UFMG,\
+enriquecendo o solo com nutrientes essenciais e promovendo o crescimento saudÃ�vel  das  plantas.  Ao  fechar  o  ciclo  de  nutrientes  dentro  do  hospital, \
+reduziremos significativamente a quantidade de resíduos orgÃ�nicos enviados para \
+aterros sanitÃ�rios, contribuindo para a redução do impacto ambiental e para a \
+promoção de prÃ�ticas sustentÃ�veis.\
+Além  dos  problemas  jÃ�  mencionados,  o  gerenciamento  no  Hospital \
+VeterinÃ�rio é afetado por problemas de comunicação e governança. Uma proposta \
+de solução poderia ser por meio de um aplicativo ou plataforma para auxiliar no \
+manejo dos resíduos, de modo a auxiliar no manejo, organização e gerenciamento \
+da  horta  do  Hospital  VeterinÃ�rio.  Isso  ocorre  por  meio  das  seguintes \
+funcionalidades: uma agenda de tarefas, um banco de dados de plantas, uma \
+função de registro de manutenções, uma seção de recursos educacionais com \
+guias prÃ�ticos sobre compostagem e jardinagem e um chat para promover a \
+colaboração entre os usuÃ�rios.\
+Por  fim,  menciona-se  que  a  horta  seria  viÃ�vel  somente  para  fins \
+experimentais  e  educacionais,  todavia,  os  alimentos  produzidos  não  seriam \
+adequados para o consumo humano, devido a falta de garantia na qualidade do \
+processo. O maior volume de resíduos é composto por fezes e urina, além de \
+serragem e alguns restos de comida, como silagem, grãos e capim, sem a utilização \
+frequente de ração.\
+Complementando as ideias mencionadas até então, a possibilidade de uma \
+parceria com o Centro Pedagógico da UFMG, a partir de projetos interativos na \
+horta, é uma forma de engajar a comunidade escolar e conscientizar os estudantes \
+desde a infÃ�ncia. Portanto, percebe-se que essa iniciativa não só contribui para a \
+redução de resíduos orgÃ�nicos, mas também promove a educação ambiental.\
+' > texto
+cat texto
+python
+nvim texto.py
+python texto
+python texto.py
+cat resultado
+nvim resultado
