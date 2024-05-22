@@ -51,9 +51,8 @@
 
 ;; remember files I visit
 (recentf-mode 1)
-;; (setq initial-buffer-choice (lambda () (recentf-open-more-files)))
-(setq history-length 25)
-                                        ;(savehist-mode 1)
+(setq initial-buffer-choice (lambda () (recentf-open-more-files)))
+(setq history-length 30)
 
 ;; do stuff when I save files
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -530,3 +529,52 @@
   :ensure t
   :config
   :hook (pdf-view-mode . pdf-view-restore-mode))
+
+(use-package smartparens
+  :config (require 'smartparens-config))
+
+(use-package tree-sitter :demand t)
+(use-package tree-sitter-langs :demand t
+  :init
+  (global-tree-sitter-mode)
+  (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
+
+;; ;; lsp
+;; (defun lsp-mode-setup ()
+;;   (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+;;   (lsp-headerline-breadcrumb-mode))
+
+;; (use-package lsp-mode
+;;   :commands (lsp lsp-deferred)
+;;   :hook (lsp-mode . lsp-mode-setup)
+;;   :init
+;;   (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+;;   :config
+;;   (lsp-enable-which-key-integration t))
+
+;; (use-package lsp-ui
+;;   :hook (lsp-mode . lsp-ui-mode)
+;;   :custom
+;;   (lsp-ui-doc-position 'bottom))
+
+;; (use-package consult-lsp)
+
+
+;; (use-package company
+;;   :after lsp-mode
+;;   :hook (lsp-mode . company-mode)
+;;   :bind (:map company-active-map
+;;          ("<tab>" . company-complete-selection))
+;;         (:map lsp-mode-map
+;;          ("<tab>" . company-indent-or-complete-common))
+;;   :custom
+;;   (company-minimum-prefix-length 1)
+;;   (company-idle-delay 0.0))
+
+;; (use-package company-box
+;;   :hook (company-mode . company-box-mode))
+
+
+;; (use-package python-mode
+;;   :mode "\\.py\\'"
+;;   :hook (python-mode . lsp-deferred))

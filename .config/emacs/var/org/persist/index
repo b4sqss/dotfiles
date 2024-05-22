@@ -13,12 +13,6 @@
  (:container
   ((elisp org-element--headline-cache)
    (elisp org-element--cache))
-  :persist-file "0b/e36176-7b20-4d37-89a9-1c47da2b61b6" :associated
-  (:hash "78b721d72ec4096f9d30a14e102735b6" :file "/home/basqs/config-template.org" :inode 328130)
-  :expiry 30 :last-access 1715877357.280839 :last-access-hr "2024-05-16T13:35:57-0300")
- (:container
-  ((elisp org-element--headline-cache)
-   (elisp org-element--cache))
   :persist-file "ce/f8baf2-273b-44c5-b749-752734b29c59" :associated
   (:hash "5089497427cf2004b081096374ff71c2" :file "/home/basqs/faculdade/geqlsm/edital.org" :inode 12719188)
   :expiry 30 :last-access 1715712500.7489386 :last-access-hr "2024-05-14T15:48:20-0300")
@@ -30,4 +24,4 @@
   :expiry 30 :last-access 1715301463.1522334 :last-access-hr "2024-05-09T21:37:43-0300")
  (:container
   ((index "3.1"))
-  :persist-file "18/c8173a-3803-4d6d-83aa-2eb786dac391" :associated nil :expiry never :last-access 1715877804.0248482 :last-access-hr "2024-05-16T13:43:24-0300"))
+  :persist-file "18/c8173a-3803-4d6d-83aa-2eb786dac391" :associated nil :expiry never :last-access 1716332241.045112 :last-access-hr "2024-05-21T19:57:21-0300"))

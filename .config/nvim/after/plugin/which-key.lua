@@ -3,8 +3,8 @@ wk.register(mappings, opts)
 wk.register({
   ["<leader>f"] = {
     name = "file",
-    f = { "<cmd>NnnPicker<cr>", "File Manager" },
-    t = { "<cmd>NnnExplorer<cr>", "Toggle file tree" }, 
+    f = { "<cmd>Oil<cr>", "File Manager" },
+    t = { function() require('oil').toggle_float() end, "Toggle file tree" },
     p = { "<cmd>Telescope find_files<cr>", "Find files" },
     g = { function() require('telescope.builtin').grep_string({ search = vim.fn.input("Grep > ") }) end, "Grep" },
     r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" }
@@ -27,7 +27,7 @@ wk.register({
   b = { "<cmd>DapToggleBreakpoint<cr>", "toggle breakpoint" }
 },
 ["<C-c>"] = {
-  ["1"] = { "<cmd>close<cr>", "Close" }, 
+  ["1"] = { "<cmd>close<cr>", "Close" },
   ["2"] = { "<cmd>split<cr>", "hsplit" },
   ["3"] = { "<cmd>vsplit<cr>", "vsplit" },
   h = { "<cmd>wincmd h<cr>", "move to left window" },

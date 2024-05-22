@@ -1,6 +1,5 @@
 set selection-clipboard clipboard
 
-
 map D set "first-page-column 1:1"
 map <C-d> set "first-page-column 1:2"
 
@@ -192,3 +191,39 @@ map [presentation] <C-v> navigate next
 map [presentation] <A-\<> goto top
 map [presentation] <A-\>> goto bottom
 
+
+set window-title-home-tilde
+set statusbar-basename
+
+set default-bg \#1a1b26
+set default-fg \#a9b1d6
+
+set statusbar-fg \#a9b1d6
+set statusbar-bg \#1a1b26
+
+set inputbar-bg \#444b6a
+set inputbar-fg \#a9b1d6
+
+set notification-bg \#444b6a
+set notification-fg \#a9b1d6
+
+set notification-error-bg \#444b6a
+set notification-error-fg ff7a93
+
+set notification-warning-bg \#444b6a
+set notification-warning-fg \#ff9e64
+
+set highlight-color \#b9f27c
+set highlight-active-color \#0db9d7
+
+set completion-bg \#444b6a
+set completion-fg \#0db9d7
+
+set completion-highlight-fg \#a9b1d6
+set completion-highlight-bg \#1a1b26
+
+set recolor-lightcolor \#1a1b26
+set recolor-darkcolor \#a9b1d6
+
+set recolor
+set recolor-keephue

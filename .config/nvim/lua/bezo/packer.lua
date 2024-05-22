@@ -37,7 +37,9 @@ return require('packer').startup(function(use)
 
 	use("hiphish/rainbow-delimiters.nvim")
 
-	use ("lukas-reineke/indent-blankline.nvim")
+	
+  --
+  -- use ("lukas-reineke/indent-blankline.nvim")
 
 	use {
 		"nvim-neo-tree/neo-tree.nvim",
@@ -50,7 +52,7 @@ return require('packer').startup(function(use)
 		}
 	}
 
-	use ("luukvbaal/nnn.nvim")
+	use ("stevearc/oil.nvim")
 
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
