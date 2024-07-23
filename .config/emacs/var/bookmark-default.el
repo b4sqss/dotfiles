@@ -3,9 +3,9 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/Documents/org/roam/20240226091152-perguntas.org")
- (front-context-string . "- Por que não us")
- (rear-context-string . "s\n#+filetags:  \n")
- (position . 101)
- (last-modified 26076 32790 634290 0))
+ (filename . "~/org/roam/20240625201035-teoria_de_bandas.org")
+ (front-context-string . "São uma aplicaçã")
+ (rear-context-string . "p: latexpreview\n")
+ (position . 140)
+ (last-modified 26235 23016 443732 858000))
 )

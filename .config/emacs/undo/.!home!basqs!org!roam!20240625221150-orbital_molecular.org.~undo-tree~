@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"d6c34f3dddcbb5fcf1b6f1c79431f8715265ade3"
+[nil nil nil nil (26235 27473 567659 847000) 0 nil]
+([nil nil ((#("%?" 0 2 (wrap-prefix "" line-prefix "" fontified nil)) . -141) (143 . 143) (141 . 144) (apply -6 14 61 undo--wrap-and-run-primitive-undo 14 61 ((14 . 61) (#(":ID: df0aaa21-063c-4386-a325-688b0ba72205" 0 41 (isearch-open-invisible-temporary org-fold-core--isearch-show-temporary isearch-open-invisible org-fold-core--isearch-show org-fold--spec-org-fold-drawer-1289915313347910021 org-fold-drawer wrap-prefix "" line-prefix "" fontified nil)) . -14))) (14 . 55) (14 . 15) (1 . 20) (1 . 74) (t . -1)) nil (26235 27473 567656 6000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . 141)) nil (26235 27473 567646 18000) 0 nil])
+nil

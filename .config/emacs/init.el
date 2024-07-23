@@ -35,9 +35,9 @@
 (global-hl-line-mode 1)
 (blink-cursor-mode 0)
 (global-visual-line-mode t)
-(global-display-line-numbers-mode 1)
+;; (global-display-line-numbers-mode 1)
 (show-paren-mode 1)
-;; (add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
 ;; (global-set-key (kbd "<f9>") 'display-line-numbers-mode)
 (put 'narrow-to-region 'disabled nil)
 
@@ -322,13 +322,17 @@
 (setq-default fill-column 80)
 
 (use-package org
-  :init (
-         ;;(variable-pitch-mode 1)
-         (auto-fill-mode 0)
-         (visual-line-mode 1)
-         (diminish org-indent-mode))
-  :custom(setq org-ellipsis "▾"
+  ;; :init ((variable-pitch-mode 1)
+  ;;        (auto-fill-mode 0)
+  ;;        (visual-line-mode 1))
+
+  :bind (("C-c C-c" . org-capture)
+         ("C-c a" . org-agenda-list)
+         ("C-c t" . org-todo-list)))
+
+(setq org-ellipsis "▾"
                org-startup-indented t
+               org-pretty-entities t
                org-hide-emphasis-markers t
                org-src-fontify-natively t
                org-fontify-quote-and-verse-blocks t
@@ -336,21 +340,18 @@
                org-edit-src-content-indentation 2
                org-hide-block-startup nil
                org-src-preserve-indentation nil
-               org-startup-folded 'content
-               org-cycle-separator-lines 2
-               org-capture-bookmark nil
-               org-agenda-files '("~/org/agenda.org")
-               org-directory  "~/Documents/org/"
+               org-startup-with-inline-images t
+               org-directory "~/org"
+               org-agenda-files (quote ("~/org"))
                org-lowest-priority ?E
-               org-agenda-directory "~/org/"
-               org-capture-templates `(("i" "inbox" entry (file ,(concat org-agenda-directory "inbox.org"))
-                                        "* TODO %?")
-                                       ("e" "email" entry (file+headline ,(concat org-agenda-directory "emails.org") "Emails")
-                                        "* TODO [#A] Reply: %a :@home:@school:" :immediate-finish t)
-                                       ("l" "link" entry (file ,(concat org-agenda-directory "inbox.org"))
-                                        "* TODO %(org-cliplink-capture)" :immediate-finish t)
-                                       ("c" "org-protocol-capture" entry (file ,(concat org-agenda-directory "inbox.org"))
-                                        "* TODO [[%:link][%:description]]\n\n %i" :immediate-finish t))
+               ;; org-capture-templates `(("i" "inbox" entry (file ,(concat org-agenda-directory "inbox.org"))
+               ;;                          "* TODO %?")
+               ;;                         ("e" "email" entry (file+headline ,(concat org-agenda-directory "emails.org") "Emails")
+               ;;                          "* TODO [#A] Reply: %a :@home:@school:" :immediate-finish t)
+               ;;                         ("l" "link" entry (file ,(concat org-agenda-directory "inbox.org"))
+               ;;                          "* TODO %(org-cliplink-capture)" :immediate-finish t)
+               ;;                         ("c" "org-protocol-capture" entry (file ,(concat org-agenda-directory "inbox.org"))
+               ;;                          "* TODO [[%:link][%:description]]\n\n %i" :immediate-finish t))
                org-todo-keywords '((sequence "TODO(t)" "|" "DONE(d)")
                                    (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
                                    (sequence "|" "CANCELED(c)"))
@@ -364,14 +365,12 @@
                org-outline-path-complete-in-steps nil
                org-refile-use-outline-path t
                org-habit-graph-column 60)
-  :bind (("C-c C-c" . org-capture)
-         ("C-c a" . org-agenda-list)))
 
 (use-package org-journal
   :bind
   ("C-c j n" . org-journal-new-entry)
   :custom
-  (setq org-journal-dir "~/Documents/org/journal/"
+  (setq org-journal-dir "~/org/journal/"
         org-journal-date-prefix "#+title: "
         org-journal-file-format "%Y-%m-%d.org"
         org-journal-date-format "%A, %d %B %Y"
@@ -381,7 +380,7 @@
 (use-package org-roam
   :ensure t
   :custom
-  (org-roam-directory "~/Documents/org/roam")
+  (org-roam-directory "~/org/roam")
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n i" . org-roam-node-insert)
@@ -417,21 +416,21 @@
           org-roam-ui-open-on-start t))
 
 
-;; Make org prettier
-(defun org/prettify-set ()
-  (interactive)
-  (setq prettify-symbols-alist
-        '(("#+begin_src" . "→")
-          ("#+BEGIN_SRC" . "→")
-          ("#+end_src" . "←")
-          ("#+END_SRC" . "←")
-          ("#+begin_example" . "")
-          ("#+BEGIN_EXAMPLE" . "")
-          ("#+end_example" . "")
-          ("#+END_EXAMPLE" . "")
-          ("#+results:" . "")
-          ("#+RESULTS:" . ""))))
-(add-hook 'org-mode-hook 'org/prettify-set)
+;; ;; Make org prettier
+;; (defun org/prettify-set ()
+;;   (interactive)
+;;   (setq prettify-symbols-alist
+;;         '(("#+begin_src" . "→")
+;;           ("#+BEGIN_SRC" . "→")
+;;           ("#+end_src" . "←")
+;;           ("#+END_SRC" . "←")
+;;           ("#+begin_example" . "")
+;;           ("#+BEGIN_EXAMPLE" . "")
+;;           ("#+end_example" . "")
+;;           ("#+END_EXAMPLE" . "")
+;;           ("#+results:" . "")
+;;           ("#+RESULTS:" . ""))))
+;; (add-hook 'org-mode-hook 'org/prettify-set)
 
 (let* ((base-font-color     (face-foreground 'default nil 'default))
        (headline           `(:inherit default :weight bold :foreground ,base-font-color)))
@@ -446,13 +445,55 @@
                           `(org-level-1 ((t (,@headline , :height 1.75))))
                           `(org-document-title ((t (,@headline , :height 2.0 :underline nil))))))
 
+(use-package org-appear
+  :hook
+  (org-mode . org-appear-mode))
+
 (use-package org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
-(use-package org-modern)
-;; (modify-all-frames-parameters
-;;  '((right-divider-width . 40)
-;;    (internal-border-width . 40)))
+;; (use-package org-modern
+;;   :hook
+;;   (org-mode . global-org-modern-mode)
+;;   :custom
+;;   (org-modern-keyword nil)
+;;   (org-modern-checkbox nil)
+;;   (org-modern-table nil))
+
+;; LaTeX previews
+(use-package org-fragtog
+  :after org
+  :custom
+  (org-startup-with-latex-preview t)
+  :hook
+  (org-mode . org-fragtog-mode)
+  :custom
+  (org-format-latex-options
+   (plist-put org-format-latex-options :scale 1)
+   (plist-put org-format-latex-options :foreground 'auto)
+   (plist-put org-format-latex-options :background 'auto)))
+
+  ;; Distraction-free writing
+  (defun ews-distraction-free ()
+    "Distraction-free writing environment using Olivetti package."
+    (interactive)
+    (if (equal olivetti-mode nil)
+        (progn
+          (window-configuration-to-register 1)
+          (delete-other-windows)
+          (text-scale-set 2)
+          (olivetti-mode t))
+      (progn
+        (if (eq (length (window-list)) 1)
+            (jump-to-register 1))
+        (olivetti-mode 0)
+        (text-scale-set 0))))
+
+  (use-package olivetti
+    :demand t
+    :bind
+    (("<f9>" . ews-distraction-free)))
+
 (dolist (face '(window-divider
                 window-divider-first-pixel
                 window-divider-last-pixel))
@@ -460,28 +501,47 @@
   (set-face-foreground face (face-attribute 'default :background)))
 (set-face-background 'fringe (face-attribute 'default :background))
 
-(setq
- ;; Edit settings
- org-auto-align-tags t
- org-tags-column 0
- org-catch-invisible-edits 'show-and-error
- org-insert-heading-respect-content t
+;; (setq
+;;  ;; Edit settings
+;;  org-auto-align-tags t
+;;  org-tags-column 0
+;;  org-catch-invisible-edits 'show-and-error
+;;  org-insert-heading-respect-content t
 
- ;; Agenda styling
- org-agenda-tags-column 0
- org-agenda-block-separator ?─
- org-agenda-time-grid
- '((daily today require-timed)
-   (800 1000 1200 1400 1600 1800 2000)
-   " ┄┄┄┄┄ " "┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄")
- org-agenda-current-time-string
- "⭠ now ─────────────────────────────────────────────────")
-(global-org-modern-mode)
+;;  ;; Agenda styling
+;;  org-agenda-tags-column 0
+;;  org-agenda-block-separator ?─
+;;  org-agenda-time-grid
+;;  '((daily today require-timed)
+;;    (800 1000 1200 1400 1600 1800 2000)
+;;    " ┄┄┄┄┄ " "┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄")
+;;  org-agenda-current-time-string
+;;  "⭠ now ─────────────────────────────────────────────────")
+;; (global-org-modern-mode)
 
 ;;org babel
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)))
+
+;; Define a custom command to save the org agenda to a file
+;; (setq org-agenda-custom-commands
+;;       `(("X" agenda "" nil ,(list org-agenda-private-local-path))))
+
+(defun org-agenda-export-to-ics ()
+  (set-org-agenda-files)
+  ;; Run all custom agenda commands that have a file argument.
+  (org-batch-store-agenda-views)
+
+  ;; Org mode correctly exports TODO keywords as VTODO events in ICS.
+  ;; However, some proprietary calendars do not really work with
+  ;; standards (looking at you Google), so VTODO is ignored and only
+  ;; VEVENT is read.
+  (with-current-buffer (find-file-noselect org-agenda-private-local-path)
+    (goto-char (point-min))
+    (while (re-search-forward "VTODO" nil t)
+      (replace-match "VEVENT"))
+    (save-buffer)))
 
 ;; auto-tangle
 (defun tangle-all-org-on-save-h ()
@@ -507,12 +567,26 @@
 (add-to-list 'org-latex-packages-alist '("" "minted"))
 (setq org-latex-listings 'minted)
 
+(with-eval-after-load 'ox-latex
+(add-to-list 'org-latex-classes
+             '("org-plain-latex"
+               "\\documentclass{article}
+           [NO-DEFAULT-PACKAGES]
+           [PACKAGES]
+           [EXTRA]"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))
+
 (setq org-latex-pdf-process
       '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
         "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
-;;(setq latex-run-command "xelatex")
-;;(setq-default org-latex-pdf-process
-;;    (list "latexmk -pdflatex='%latex -shell-escape -interaction nonstopmode' -pdf -output-directory=%o %f"))
+
+;; (setq latex-run-command "xelatex")
+;; (setq-default org-latex-pdf-process
+;;     (list "latexmk -pdflatex='%latex -shell-escape -interaction nonstopmode' -pdf -output-directory=%o %f"))
 ;; pdf
 (use-package pdf-tools
   :mode "\\.pdf\\'"
@@ -524,6 +598,7 @@
         pdf-view-display-size 'fit-page)
   (define-key pdf-view-mode-map (kbd "C-s") 'isearch-forward)
   :hook (pdf-tools-enabled . pdf-view-themed-minor-mode))
+
 (use-package pdf-view-restore
   :after pdf-tools
   :ensure t

@@ -37,7 +37,10 @@ return require('packer').startup(function(use)
 
 	use("hiphish/rainbow-delimiters.nvim")
 
-	
+	use {'nvim-orgmode/orgmode', config = function()
+  require('orgmode').setup{}
+end
+}
   --
   -- use ("lukas-reineke/indent-blankline.nvim")
 

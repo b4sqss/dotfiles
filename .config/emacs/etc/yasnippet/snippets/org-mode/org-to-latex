@@ -6,7 +6,7 @@
 #+TITLE: ${1:Title}
 #+DATE:
 :PROPERTIES:
-#+SETUPFILE: ~/Docs/org/latexSetup.org
+#+SETUPFILE: ~/org/latexsetup.org
 #+LATEX_CLASS: article
 #+LATEX_OPTIONS: [letterpaper]
 #+LATEX_HEADER: \usepackage[brazil]{babel}
